@@ -12,7 +12,7 @@ def main():
     gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
     gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
-    # ORB生成
+    # SIFT生成
     sift = cv2.SIFT_create()
 
     # 特徴点抽出
